@@ -1,0 +1,14 @@
+{
+    "name": "akwa.online!!",
+    "short_name": "akwa.online!!",
+    "icons": [
+        {
+            "src": "/img/android-chrome-96x96.png",
+            "sizes": "96x96",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#c09dff",
+    "background_color": "#c09dff",
+    "display": "standalone"
+}
