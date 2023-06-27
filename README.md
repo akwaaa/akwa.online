@@ -1,0 +1,2 @@
+# akwa.online
+personal website :)
