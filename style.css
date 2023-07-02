@@ -13,8 +13,13 @@
 html, body, .page {
 
     height: 100%;
-    overflow: hidden;
+    overflow: auto;
 
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
 }
 
 .page {
