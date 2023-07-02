@@ -13,7 +13,6 @@
 html, body, .page {
 
     height: 100%;
-    overflow: hidden;
 
 }
 
@@ -83,6 +82,12 @@ html, body, .page {
 }
 
 h3 {
+
+    text-align: center;
+
+}
+
+h2 {
 
     text-align: center;
 
