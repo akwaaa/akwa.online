@@ -1,7 +1,7 @@
 :root {
 
     background-color: #c09dff;
-
+    margin: 0px 8px 0px 8px;
 }
 
 .pfp {
@@ -17,20 +17,23 @@ html, body, .page {
 
 }
 
+body {
+    margin: 0px;
+}
+
 ::-webkit-scrollbar {
     width: 0px;
     background: transparent;
 }
 
 .page {
-
     display: flex;
     flex-direction: column;
 
 }
 
 .head {
-
+    margin-top: 8px;
     display: flex;
     width: 100%;
     justify-content: center;
@@ -55,7 +58,7 @@ html, body, .page {
     justify-content: center;
     align-items: center;
     height: 100%;
-
+    flex-direction: column;
 }
 
 .box {
@@ -106,7 +109,7 @@ p {
 }
 
 .foot {
-
+    margin-bottom: 8px;
     display: flex;
     width: 100%;
     justify-content: center;
@@ -122,5 +125,10 @@ p {
     border-radius: 8px;
     border-style: solid;
     border-color: #7c60af;
+
+}
+
+.friends {
+
 
 }
