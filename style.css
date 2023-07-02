@@ -13,6 +13,7 @@
 html, body, .page {
 
     height: 100%;
+    overflow: hidden;
 
 }
 
@@ -62,7 +63,7 @@ html, body, .page {
 }
 
 .left, .right {
-    
+
     background-color: #c09dff;
     margin: 5px;
     max-width: 50%;
@@ -72,7 +73,7 @@ html, body, .page {
     justify-content: center;
 
 }
-  
+
 .left {
 
     align-items: center;
@@ -109,7 +110,7 @@ p {
 }
 
 .footer {
-    
+
     width: 100%;
     font-style: italic;
     text-align: center;
