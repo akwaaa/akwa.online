@@ -6,11 +6,11 @@
 <main>
 <Title/>
 <h1 class="navbar">
-  <a href="https://akwa.online/">home</a> - 
-  portfolio - 
-  contact - 
-  setup - 
-  bonus</h1>
+  <a href="">home</a> - 
+  <a href="">portfolio</a> - 
+  <a href="">contact</a> - 
+  <a href="">setup</a> - 
+  <a href="">bonus</a></h1>
 <hr>
 <!-- svelte-ignore a11y-distracting-elements -->
 <marquee class="scroll" scrolldelay="10" truespeed scrollamount="3">now playing: [soon™] - discord status: [soon™]</marquee>
@@ -195,4 +195,5 @@
       width: 70%;
     }
   }
+
 </style>
