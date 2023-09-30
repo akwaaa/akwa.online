@@ -6,10 +6,15 @@
 <main>
 <Title/>
 <h1 class="navbar">
+  <!-- svelte-ignore a11y-invalid-attribute -->
   <a href="">home</a> - 
+  <!-- svelte-ignore a11y-invalid-attribute -->
   <a href="">portfolio</a> - 
+  <!-- svelte-ignore a11y-invalid-attribute -->
   <a href="">contact</a> - 
+  <!-- svelte-ignore a11y-invalid-attribute -->
   <a href="">setup</a> - 
+  <!-- svelte-ignore a11y-invalid-attribute -->
   <a href="">bonus</a></h1>
 <hr>
 <!-- svelte-ignore a11y-distracting-elements -->
@@ -28,12 +33,29 @@
       <a href="https://open.spotify.com/user/isyg8ky5hrcmptz626tcn35n5?si=4e4fc2c03e8b49fc">spotify</a> | 
       <a href="https://github.com/Akwaaa">github</a> | 
       <a href="https://twitch.tv/444Akwa">twitch</a> | 
-      <a href="https://instagram.com/eatincatfood">insta</a> | 
+      <a href="#popup1">discord</a> | 
       <a href="https://last.fm/user/akwajpn">last.fm</a> | 
-      <a href="#popup1">steam</a>
+      <a href="#popup2">steam</a>
     </h1>
 
     <div id="popup1" class="overlay">
+      <div class="popup">
+        <!-- svelte-ignore a11y-invalid-attribute -->
+        <a class="close" href="#">&times;</a>
+        <div class="content">
+          <h1>accounts:</h1>
+          <h2>
+            <a href="https://steamcommunity.com/id/0g_">@akwa</a> - main account<br>
+            <a href="https://steamcommunity.com/id/akwajpn">@akwa.online</a> - alt (inactive) account
+          </h2>
+          <h3>
+            (note: hyperlinks to the accounts might not work if we have no servers in common, just add my <b>main</b> account instead to contact me)
+          </h3>
+        </div>
+      </div>
+    </div>
+
+    <div id="popup2" class="overlay">
       <div class="popup">
         <!-- svelte-ignore a11y-invalid-attribute -->
         <a class="close" href="#">&times;</a>
@@ -166,6 +188,13 @@
   }
 
   .popup h2 {
+    margin-top: 0;
+    color: #ffffff;
+    font-family: Inter;
+    font-weight: normal;
+  }
+
+  .popup h3 {
     margin-top: 0;
     color: #ffffff;
     font-family: Inter;
