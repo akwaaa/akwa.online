@@ -45,8 +45,8 @@
         <div class="content">
           <h1>accounts:</h1>
           <h2>
-            <a href="https://steamcommunity.com/id/0g_">@akwa</a> - main account<br>
-            <a href="https://steamcommunity.com/id/akwajpn">@akwa.online</a> - alt (inactive) account
+            <a href="https://discord.com/users/610214508937347082">@akwa</a> - main account<br>
+            <a href="https://discord.com/users/1122147961170821262">@akwa.online</a> - alt (inactive) account
           </h2>
           <h3>
             (note: hyperlinks to the accounts might not work if we have no servers in common, just add my <b>main</b> account instead to contact me)
