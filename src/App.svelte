@@ -23,7 +23,7 @@
 <br>
 <div class="container">
   <div>
-    <img class="pfp" src="src/assets/pfp.png" width="230px" alt="profile pic">
+    <img class="pfp" src="pfp.png" width="230px" alt="profile pic">
   </div>
   <div>
     <Word/>
