@@ -1,21 +1,17 @@
 <script>
   import Title from "./lib/title.svelte";
   import Word from "./lib/word.svelte";
+  alert("This website isn't designed for mobile, so if you're on a mobile device it will not display properly. Sorry :(");
 </script>
 
 <main>
 <Title/>
 <h1 class="navbar">
-  <!-- svelte-ignore a11y-invalid-attribute -->
-  <a href="">home</a> - 
-  <!-- svelte-ignore a11y-invalid-attribute -->
-  <a href="">portfolio</a> - 
-  <!-- svelte-ignore a11y-invalid-attribute -->
-  <a href="">contact</a> - 
-  <!-- svelte-ignore a11y-invalid-attribute -->
-  <a href="">setup</a> - 
-  <!-- svelte-ignore a11y-invalid-attribute -->
-  <a href="">bonus</a></h1>
+<a href="">home</a> -
+<a href="">portfolio</a> -
+<a href="">contact</a> -
+<a href="">setup</a> -
+<a href="">bonus</a></h1>
 <hr>
 <!-- svelte-ignore a11y-distracting-elements -->
 <marquee class="scroll" scrolldelay="10" truespeed scrollamount="3">now playing: [soon™] - discord status: [soon™]</marquee>
@@ -23,19 +19,19 @@
 <br>
 <div class="container">
   <div>
-    <img class="pfp" src="pfp.png" width="230px" alt="profile pic">
+    <img class="pfp" src="images/pfp.png" width="230px" alt="profile pic">
   </div>
   <div>
     <Word/>
     <h1>freeparty enjoyer, amateur dj | free tekno for free people &lt;3</h1>
     <h1>
-      <a href="https://soundcloud.com/eatincatfood">soundcloud</a> | 
-      <a href="https://open.spotify.com/user/isyg8ky5hrcmptz626tcn35n5?si=4e4fc2c03e8b49fc">spotify</a> | 
-      <a href="https://github.com/Akwaaa">github</a> | 
-      <a href="https://twitch.tv/444Akwa">twitch</a> | 
-      <a href="#popup1">discord</a> | 
-      <a href="https://last.fm/user/akwajpn">last.fm</a> | 
-      <a href="#popup2">steam</a>
+    <a href="https://soundcloud.com/eatincatfood">soundcloud</a> |
+    <a href="https://open.spotify.com/user/isyg8ky5hrcmptz626tcn35n5?si=4e4fc2c03e8b49fc">spotify</a> |
+    <a href="https://github.com/Akwaaa">github</a> |
+    <a href="https://twitch.tv/444Akwa">twitch</a> |
+    <a href="#popup1">discord</a> |
+    <a href="https://last.fm/user/akwajpn">last.fm</a> |
+    <a href="#popup2">steam</a>
     </h1>
 
     <div id="popup1" class="overlay">
@@ -72,16 +68,61 @@
     </div>
 
     <h1>
-      <a href="https://blahaj.systems">blåhaj</a> x 
-      <a href="https://steamcommunity.com/groups/thetacrewcsgo">theta</a> x 
-      <span class="nolink">bdv</span> x 
+      <a href="https://blahaj.systems">blåhaj</a> x
+      <a href="https://steamcommunity.com/groups/thetacrewcsgo">theta</a> x
+      <span class="nolink">bdv</span> x
       <span class="nolink">dea</span>
     </h1>
   </div>
 </div>
-<div class="buttons">
-
-</div>
+<br>
+<div>
+  <div class="buttons">
+   <h1 class="smol">friends!</h1>
+   <p class="smol">
+     <a href="https://damioski.de"><img src="https://damioski.de/damioskistyle/damioski_friend.png" width="88" height="31" alt="damioski's website"></a>
+     <a href="https://mar.co.gg"><img src="https://mar.co.gg/88x31.avif" width="88" height="31" alt="marco's website"></a>
+     <a href="https://bwbl.me"><img src="https://bwbl.me/88x31.png" width="88" height="31" alt="bwbl's website"></a>
+     <a href="https://hytracer.ink"><img src="https://hytracer.ink/button.png" width="88" height="31" alt="hytracer's website"></a>
+     <!--
+     <img src="images/88x31.gif" width="88" height="31" alt="test">
+     <img src="images/88x31.gif" width="88" height="31" alt="test">
+     <img src="images/88x31.gif" width="88" height="31" alt="test">
+     <img src="images/88x31.gif" width="88" height="31" alt="test"> 
+     -->
+   </p>
+  </div>
+ </div>
+<br>
+ <div class="buttons">
+  <h1 class="smol">buttons!</h1>
+  <p class="smol">
+    <a href="https://en.wikipedia.org/wiki/ACAB"><img src="images/buttons/acab.gif" width=88 height=31 alt="all cops are bastards!"></a>
+    <img src="images/buttons/anonymize.gif" width=88 height=31 alt="anonymize the web!">
+    <img src="images/buttons/another.gif" width=88 height=31 alt="another brilliant mind ruined by higher education">
+    <a href="https://en.wikipedia.org/wiki/Anti-fascism"><img src="images/buttons/antifa.gif" width=88 height=31 alt="antifa"></a>
+    <a href="https://archlinux.org/"><img src="images/buttons/archlinux.gif" width=88 height=31 alt="arch linux"></a>
+    <img src="images/buttons/arizona.gif" width=88 height=31 alt="powered by arizona green tea">
+    <img src="images/buttons/construction.gif" width=88 height=31 alt="website under construction">
+    <img src="images/buttons/htmldream.gif" width=88 height=31 alt="i dream in html"><br>
+    <a href="https://neocities.org/"><img src="images/buttons/neocities-pink.gif" width=88 height=31 alt="neocities: the web is yours"></a>
+    <img src="images/buttons/pothead.gif" width=88 height=31 alt="pothead">
+    <img src="images/buttons/powered.gif" width=88 height=31 alt="this site is powered by imagination">
+    <img src="images/buttons/rainbow_bev.gif" width=88 height=31 alt="rainbow/LGBTQ flag">
+    <img src="images/buttons/seedyourtorrents.gif" width=88 height=31 alt="seed your torrents!">
+    <img src="images/buttons/tyg.gif" width=88 height=31 alt="trans your gender!">
+    <img src="images/buttons/webpassion.gif" width=88 height=31 alt="web design is my passion">
+    <a href="https://akwa.online/"><img src="images/88x31.gif" width=88 height=31 alt="akwa dot online"></a>
+  </p>
+ </div>
+ <br>
+ <footer>
+ <hr>
+ <br>
+  <p class="centered">
+    hosted by <a href="https://damioski.de">damioski netzwerk</a>
+  </p>
+</footer>
 </main>
 
 <style>
@@ -223,6 +264,36 @@
     .popup{
       width: 70%;
     }
+  }
+
+  .buttons{
+    border: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 13vw;
+    margin-right: 13vw;
+  }
+
+  p.smol {
+  margin: 5px;
+  padding: 5px;
+  }
+
+  h1.smol {
+  margin: 5px;
+  padding: 5px;
+  }
+
+  .smol {
+    font-size: 20px;
+  }
+
+  p.centered {
+    text-align: center;
+    color: white;
   }
 
 </style>
