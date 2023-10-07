@@ -4,6 +4,11 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+dependencies:
+  svelte-routing:
+    specifier: ^2.5.0
+    version: 2.5.0
+
 devDependencies:
   '@sveltejs/vite-plugin-svelte':
     specifier: ^2.4.2
@@ -477,6 +482,10 @@ packages:
     dependencies:
       svelte: 4.0.5
     dev: true
+
+  /svelte-routing@2.5.0:
+    resolution: {integrity: sha512-fM8yb6qRaaOZiOtNkh8lLt4myEINjVWUzQOmLYelrIuAAVW1q4y4IYHOA78D+iDE/Abl3aiFDHn/kS/kZNvRWA==}
+    dev: false
 
   /svelte@4.0.5:
     resolution: {integrity: sha512-PHKPWP1wiWHBtsE57nCb8xiWB3Ht7/3Kvi3jac0XIxUM2rep8alO7YoAtgWeGD7++tFy46krilOrPW0mG3Dx+A==}
