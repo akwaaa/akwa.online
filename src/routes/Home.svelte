@@ -70,7 +70,7 @@
      <p class="smol">
        <a href="https://damioski.de"><img src="https://damioski.de/damioskistyle/damioski_friend.png" width="88" height="31" alt="damioski's website"></a>
        <a href="https://mar.co.gg"><img src="https://mar.co.gg/88x31.avif" width="88" height="31" alt="marco's website"></a>
-       <a href="https://bwbl.me"><img src="https://bwbl.me/88x31.png" width="88" height="31" alt="bwbl's website"></a>
+       <a href="https://bonnies.ninja"><img src="https://raw.githubusercontent.com/Imbwbl/Imbwbl.github.io/main/88x31.png" width="88" height="31" alt="bwbl's website"></a>
        <a href="https://hytracer.ink"><img src="https://hytracer.ink/button.png" width="88" height="31" alt="hytracer's website"></a>
        <a href="https://checkcast.xyz"><img src="https://checkcast.xyz/image/badge/me/original.gif" width="88" height="31" alt="checkcast's website"></a>
        <a href="https://akwa.online/"><img src="images/88x31.gif" width=88 height=31 alt="akwa dot online"></a>
